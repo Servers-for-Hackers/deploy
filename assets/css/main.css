@@ -1694,8 +1694,21 @@
 			line-height: 1.5em;
 		}
 
-		header.major {
+		header.major,
+		.form-action-doit-now {
 			text-align: center;
+		}
+
+		.form-action-doit-now input[type="text"] {
+			margin-top: .8em;
+		}
+
+		.row > section.not-so-big {
+			border-top: 1px solid #e8e8e8;
+		}
+
+		.form-action-doit-now h2 {
+			color: #f35858;
 		}
 
 /* Image */
