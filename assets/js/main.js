@@ -51,6 +51,7 @@
 
 		// Off-Canvas Navigation.
 
+		/*
 			// Navigation Button.
 				$(
 					'<div id="navButton">' +
@@ -78,7 +79,7 @@
 						target: $body,
 						visibleClass: 'navPanel-visible'
 					});
-
+		*/
 			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#navButton, #navPanel, #page-wrapper')
