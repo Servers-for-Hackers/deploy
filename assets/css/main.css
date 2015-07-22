@@ -1703,7 +1703,7 @@
 			margin-top: .8em;
 		}
 
-		.row > section.not-so-big {
+		.row > section.not-so-big, hr {
 			border-top: 1px solid #e8e8e8;
 		}
 
@@ -2062,6 +2062,55 @@
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
+	}
+
+#chapters {
+	position: relative;
+}
+
+#chapters header {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#chapters header p {
+	margin: 0;
+}
+
+	.chapter_wrap {
+		position: relative;
+	}
+
+		.chapter_wrap .first::before {
+			content: '';
+			display: block;
+			width: 2000%;
+			height: 60px;
+			position: absolute;
+			left: -1000%;
+			z-index: 1;
+			background: #f6f8fb;
+		}
+
+		.chapter_wrap .row > div,
+		.chapter_wrap .row > div *,
+		.chapter_wrap .row .first {
+			position: relative;
+			z-index: 2;
+		}
+
+	.chapter_wrap h3 {
+		background: #f6f8fb url("images/arrow_cap.png") no-repeat top right;
+		text-align: center;
+		line-height: 60px;
+	}
+
+	.chapter_wrap ul {
+		margin-top: 20px;
+	}
+
+	.chapter_wrap .row > .chapter_content {
+		padding-top: 0;
 	}
 
 /* Header */
