@@ -1,0 +1,13 @@
+{
+    "name": "fideloper/deploy",
+    "description": "Deploy Video Site",
+    "require": {
+        "michelf/php-markdown": "1.5~"
+    },
+    "authors": [
+        {
+            "name": "fideloper",
+            "email": "fideloper@gmail.com"
+        }
+    ]
+}
