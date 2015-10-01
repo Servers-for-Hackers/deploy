@@ -2,7 +2,12 @@
     "name": "fideloper/deploy",
     "description": "Deploy Video Site",
     "require": {
-        "michelf/php-markdown": "1.5~"
+        "michelf/php-markdown": "1.5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Deploy\\": "src/Deploy"
+        }
     },
     "authors": [
         {
