@@ -3075,3 +3075,17 @@
 			}
 
 	}
+	.ctr {
+		text-align: center;
+	}
+	.margin-vert {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.what-learn,
+	.row > .what-learn {
+		font-size: 26px;
+		padding: 0;
+		font-weight: 400;
+		margin-top: 0;
+	}
