@@ -3133,3 +3133,11 @@
 		background: #f6f8fb;
 		padding: 0 20px;
 	}
+
+.module-header {
+	font-weight: bold;
+}
+
+.module-header p {
+	padding-top: 20px;
+}
