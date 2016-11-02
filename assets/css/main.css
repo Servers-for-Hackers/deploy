@@ -2073,9 +2073,15 @@
 	margin-bottom: 0;
 }
 
-#chapters header p {
+#chapters header p,
+#modules header#main-module-header p {
 	margin: 0;
 	font-size: 2.2em;
+}
+
+#modules header#main-module-header p {
+	padding: 0;
+	text-align: center;
 }
 
 	.chapter_wrap {
@@ -3085,7 +3091,8 @@
 	.what-learn,
 	.row > .what-learn {
 		font-size: 26px;
-		padding: 0;
+		padding-top: 0;
+		padding-bottom: 0;
 		font-weight: 400;
 		margin-top: 0;
 	}
@@ -3120,4 +3127,9 @@
 	.module-video span.duration {
 	    right: 2px;
 	    left: auto;
+	}
+
+	.module-title {
+		background: #f6f8fb;
+		padding: 0 20px;
 	}
